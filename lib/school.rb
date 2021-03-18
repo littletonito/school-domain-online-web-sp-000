@@ -26,6 +26,6 @@ class School
     roster.each do |grade, student|
       [grade] = student.sort
     end
-
+    sorted
   end
 end
