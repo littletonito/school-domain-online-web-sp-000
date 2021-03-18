@@ -11,8 +11,8 @@ class School
   end
 
   def add_student(student_name, grade)
-    # ||= is short for a = a || b 
+    # ||= is short for a = a || b
     # roster[grade] ||= [] 
-    roster[grade] << student_name 
+    roster[grade] << student_name
   end
 end
